@@ -1,0 +1,322 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,img,small,sub,b,dl,dd,dt,ul,li,label,article,details,footer,header,menu,nav,input,textarea,select{
+		background:transparent;
+		border:0;
+		outline:0;
+		padding:0;
+		margin:0;
+		font-family: helvetica;
+		color: #555;
+	}
+	
+	.clearfix:after {
+		clear: both;
+		content: " ";
+		display: block;
+		font-size: 0;
+		height: 0;
+		line-height: 0;
+		visibility: hidden;
+		width: 0;
+	}
+	
+	li {
+		list-style:none;
+	}
+
+	* {
+		margin:0;
+	padding:0;
+	/* -webkit-user-select: none; */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+	#encabezado{
+		width: 100%;
+		/* background-image: url('../img/cabecera.jpg'); */
+		/* height: 68px; */
+		background-repeat: no-repeat;
+		background-color: #fbe118;
+		line-height: 68px;
+		margin-bottom: 5px;
+	}
+	
+	
+	.form{
+		padding: 10px;
+	}
+	
+	.input{
+		width: 100%;
+		height: 35px;
+		line-height: 35px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding-left: 5px;
+		margin: 10px 0 10px 0;
+		color: #000;
+	}
+	
+	.input2{
+		width: 30%;
+		height: 35px;
+		line-height: 35px;
+		border: 1px solid #ccc;
+		color: #000;
+		border-radius: 5px;
+		padding-left: 5px;
+		margin: 10px 0 10px 0;
+	}
+	
+	
+	#agrega{
+		background-color: #fbe118;
+		height: 35px;
+		width: 100%;
+		line-height: 35px;
+		text-align: center;
+		color: #555;
+	}
+
+	#agrega:hover{		
+		background-color: #000;
+		color: #fff;				
+	}
+
+	#response{
+		width: 100%;
+		color: #fff;
+		background-color: red;
+		padding-left: 5px;
+		height: 35px;
+		line-height: 35px;
+		text-align: center;
+		margin-bottom: 10px;
+		display: none;
+	}
+
+	#gracias{
+		width: 100%;
+		color: #fff;
+		background-color: green;
+		padding-left: 5px;
+		height: 35px;
+		line-height: 35px;
+		text-align: center;
+		margin-bottom: 10px;
+		display: none;
+	}
+	
+	
+	
+	#operador{
+		width: 100%;
+		height: 35px;
+			border: 1px solid #ccc;
+		padding-left: 5px;
+		border-radius: 5px;
+	}
+	
+	
+	#basesWrap{
+		height: 35px;
+		line-height: 35px;
+		font-size: 15px;
+		
+		
+	}
+	
+	#basesWrap span{
+		text-decoration: underline;
+		cursor: pointer;
+		width: 100%;
+		
+	}
+	
+	#basesInside{
+		padding: 20px;
+	}
+	
+	#basesMuestra{
+		background: #fff;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		z-index: 1000;
+		display: none;
+		bottom: 0;
+		
+	}
+	
+	#closeMuestra{
+		position: fixed;
+		top:10px;
+		right: 10px;
+		color: #fbe118;
+		height: 35px;
+		width: 35px;
+		line-height: 35px;
+		text-align: center;
+		font-size: 30px;
+	}
+	
+	
+	#preload{
+		background: #fff;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 200000;
+		display: none;
+		
+	}
+	
+	#preload div{
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 50%;
+	top:50%;
+	margin-left: -22px;
+	margin-top: -22px;
+	
+	
+	}
+	
+	.transparent {
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%; 
+		
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=50);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.5;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.5;
+    
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.5;
+}
+
+
+
+	#botonFoto{
+		background-color: #fbe118;
+		height: 35px;
+		width: 100%;
+		line-height: 35px;
+		text-align: center;
+		color: #555;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	
+
+
+	#configMuestra{
+		background: #fff;
+		position: fixed;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+		overflow: auto;
+		z-index: 1500;
+		display: none;
+		
+	}
+	
+		#configInside{
+		padding: 20px;
+	}
+	
+	
+	#configClose{
+		position: fixed;
+		top:10px;
+		right: 10px;
+		color: #fbe118;
+		height: 35px;
+		width: 35px;
+		line-height: 35px;
+		text-align: center;
+		font-size: 30px;
+	}
+	
+	
+	.configItem{
+		height: 50px;
+		line-height: 50px;
+	}
+	
+	#imageWrap{
+		height: 188px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		display: none;
+	}
+	
+	
+	
+	#aviso{
+		
+		background: #fff;
+		position: fixed;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+		overflow: auto;
+		z-index: 1600;
+		display: none;
+	}
+	
+	#avisoInside{
+	background-color: #fbe118;
+	width: 250px;
+	height: 130px;
+	padding-top: 20px;
+	position: absolute;
+	left: 50%;
+	top:130px;
+	margin-left: -125px;
+	text-align: center;
+	}
+	
+	
+	#avisoClose{
+		height: 35px;
+		line-height: 35px;
+		text-align: center;
+		text-align: center;
+		border: 1px solid #555;
+		width: 125px;
+		margin: auto;
+		margin-top: 30px
+	}
+	
+	
+	#origen{width:100%;height:100%;background-color:#000;position:fixed;top:0;left:0;z-index:9000;color:#fff;padding-top:100px;text-align:center;font-size:30px}
+#origen input{border:1px solid #ccc;height:50px;width:80%;line-height:50px;font-size:25px;-webkit-border-radius:5px 5px 5px 5px;border-radius:5px 5px 5px 5px}
+	

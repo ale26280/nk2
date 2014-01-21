@@ -1,0 +1,16 @@
+C:\Users\admin\Documents\test\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\admin\Documents\test\platforms\wp8\Bin\Debug\Background.png
+C:\Users\admin\Documents\test\platforms\wp8\Bin\Debug\com.kood.test.dll
+C:\Users\admin\Documents\test\platforms\wp8\Bin\Debug\com.kood.test.pdb
+C:\Users\admin\Documents\test\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\admin\Documents\test\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\admin\Documents\test\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\admin\Documents\test\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\admin\Documents\test\platforms\wp8\obj\Debug\Plugins\org.apache.cordova.media-capture\AudioRecorder.g.cs
+C:\Users\admin\Documents\test\platforms\wp8\obj\Debug\Plugins\org.apache.cordova.media-capture\VideoRecorder.g.cs
+C:\Users\admin\Documents\test\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\admin\Documents\test\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\admin\Documents\test\platforms\wp8\obj\Debug\com.kood.test.g.resources
+C:\Users\admin\Documents\test\platforms\wp8\obj\Debug\com.kood.test.dll
+C:\Users\admin\Documents\test\platforms\wp8\obj\Debug\com.kood.test.pdb
+C:\Users\admin\Documents\test\platforms\wp8\obj\Debug\XapCacheFile.xml
